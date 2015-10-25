@@ -23,6 +23,7 @@ Plugin 'tpope/vim-repeat'
 Plugin 'gioele/vim-autoswap'
 Plugin 'rking/ag.vim'
 Plugin 'majutsushi/tagbar'
+Plugin 'mattn/emmet-vim'
 "Plugin 'severin-lemaignan/vim-minimap'
 "Plugin 'terryma/vim-multiple-cursors'
 "Plugin 'paradigm/vim-multicursor'
@@ -33,6 +34,7 @@ filetype plugin indent on
 """"""""""""""""""""""""" Mappings """""""""""""""""""""""""
 
 let mapleader = ","
+let g:user_emmet_leader_key='<C-Y>'
 
 map <leader>m :tabe ~/.vimrc<CR>
 map <leader>w :w<CR>
@@ -94,6 +96,7 @@ cabbrev sht ConqueTermTab bash
 cabbrev sh ConqueTerm bash
 cabbrev shs ConqueTermSplit bash
 cabbrev git Git
+cabbrev cs colorscheme
 """"""""""""""""""""""""" GUI      """"""""""""""""""""""""
 
 syntax on
