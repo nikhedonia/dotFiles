@@ -64,6 +64,7 @@ function mp3 {
 }
 
 function mp3list {
+  # downloads all music titles in each line from file
   filename="$*"
   echo Start
   while read p; do
